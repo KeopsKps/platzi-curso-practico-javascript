@@ -18,8 +18,19 @@
         <form action="">
             <label for="InputCuadrado">Escribe cuánto mide cada lado de tu cuadrado:</label>
             <input id="InputCuadrado" type="number"/>
-            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
-            <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
+            <button type="button" id="calculaPerimetroCuadrado">Calcular el perimetro</button>
+            <button type="button" id="calculaAreaCuadrado">Calcular el area</button>
+        </form>
+        <h2>Calcular el area y perimetro de un triangulo isosceles</h2>
+        <form action="">
+            <label for="lado1">Escribe el primer lado:</label>
+            <input type="number" id="lado1">
+            <label for="lado2">Escribe el segundo lado:</label>
+            <input type="number" id="lado2">
+            <label for="base">Escribe la base:</label>
+            <input type="number" id="base">            
+            <button type="button" id="calculaPerimetroTriangulo">Calcular el perimetro</button>
+            <button type="button" id="calculaAreaTriangulo">Calcular el area</button>
         </form>
     </section>
     <script src="figuras.js"></script>
